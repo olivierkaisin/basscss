@@ -1,14 +1,13 @@
 /*! Basscss | http://basscss.com | MIT License */
 
-@import 'basscss-type-scale';
-@import 'basscss-typography';
-@import 'basscss-layout';
-@import 'basscss-align';
-@import 'basscss-margin';
-@import 'basscss-padding';
-@import 'basscss-grid';
-@import 'basscss-flexbox';
-@import 'basscss-position';
-@import 'basscss-border';
-@import 'basscss-hide';
-
+@import '../modules/type-scale';
+@import '../modules/typography';
+@import '../modules/layout';
+@import '../modules/align';
+@import '../modules/margin';
+@import '../modules/padding';
+@import '../modules/grid';
+@import '../modules/flexbox';
+@import '../modules/position';
+@import '../modules/border';
+@import '../modules/hide';

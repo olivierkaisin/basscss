@@ -11,7 +11,8 @@ module.exports = {
     'postcss-discard-comments',
     'postcss-remove-root',
     'autoprefixer',
-    'postcss-reporter'
+    'postcss-reporter',
+    'postcss-nested'
   ],
   input: 'src/basscss.css',
   dir: 'css'
