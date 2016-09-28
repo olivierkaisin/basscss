@@ -89,3 +89,7 @@
     flex-wrap: wrap;
   }
 }
+
+.flex-grow { flex-grow: 1 }
+.flex-shrink { flex-shrink: 1 }
+.flex-none { flex: none }
