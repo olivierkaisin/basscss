@@ -48,42 +48,34 @@
 /* Control over children margins */
 .mcx1 { 
   > *:not(:first-child) { margin-left: var(--space-1) }
-  > *:not(:last-child) { margin-right:  var(--space-1) } 
 }
 
 .mcy1 { 
   > *:not(:first-child) { margin-top: var(--space-1) }
-  > *:not(:last-child) { margin-bottom:  var(--space-1) } 
 }
 
 .mcx2 { 
   > *:not(:first-child) { margin-left: var(--space-2) }
-  > *:not(:last-child) { margin-right:  var(--space-2) } 
 }
 
 .mcy2 { 
   > *:not(:first-child) { margin-top: var(--space-2) }
-  > *:not(:last-child) { margin-bottom:  var(--space-2) } 
 }
 
 .mcx3 { 
   > *:not(:first-child) { margin-left: var(--space-3) }
-  > *:not(:last-child) { margin-right:  var(--space-3) } 
 }
 
 .mcy3 { 
   > *:not(:first-child) { margin-top: var(--space-3) }
-  > *:not(:last-child) { margin-bottom:  var(--space-3) } 
 }
 
 .mcx4 { 
-  > *:not(:first-child) { margin-left: var(--space-4) }
-  > *:not(:last-child) { margin-right:  var(--space-4) } 
+  > *:not(:first-child) { margin-left: var(--space-4) } 
 }
 
 .mcy4 { 
   > *:not(:first-child) { margin-top: var(--space-4) }
-  > *:not(:last-child) { margin-bottom:  var(--space-4) } 
 }
 
 .ml-auto { margin-left: auto }

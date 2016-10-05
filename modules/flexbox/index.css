@@ -39,6 +39,10 @@
     justify-content: space-between;
   }
 
+  &.-space-around {
+    justify-content: space-around;
+  }
+
   &.-wrap {
     flex-wrap: wrap;
   }
@@ -66,6 +70,10 @@
 
   &.-space-between {
     justify-content: space-between;
+  }
+
+  &.-space-around {
+    justify-content: space-around;
   }
   
   /* Horizontal Alignment */
