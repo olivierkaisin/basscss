@@ -10,4 +10,9 @@
 @import '../modules/flexbox';
 @import '../modules/position';
 @import '../modules/border';
-@import '../modules/hide';
+@import '../modules/responsive-layout';
+@import '../modules/responsive-margin';
+@import '../modules/responsive-padding';
+@import '../modules/responsive-position';
+@import '../modules/responsive-type-scale';
+@import '../modules/responsive-typography';
