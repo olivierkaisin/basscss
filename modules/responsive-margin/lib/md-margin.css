@@ -48,35 +48,43 @@
 
   /* Control over children margins */
   .md-mcx1 { 
-    > *:not(:first-child) { margin-left: var(--space-1) }
+    margin-left: -var(--space-1);
+    > * { margin-left: var(--space-1) }
   }
 
   .md-mcy1 { 
-    > *:not(:first-child) { margin-top: var(--space-1) }
+    margin-top: -var(--space-1);
+    > * { margin-top: var(--space-1) }
   }
 
   .md-mcx2 { 
-    > *:not(:first-child) { margin-left: var(--space-2) }
+    margin-left: -var(--space-2);
+    > * { margin-left: var(--space-2) }
   }
 
   .md-mcy2 { 
-    > *:not(:first-child) { margin-top: var(--space-2) }
+    margin-top: -var(--space-2);
+    > * { margin-top: var(--space-2) }
   }
 
   .md-mcx3 { 
-    > *:not(:first-child) { margin-left: var(--space-3) }
+    margin-left: -var(--space-3);
+    > * { margin-left: var(--space-3) }
   }
 
   .md-mcy3 { 
-    > *:not(:first-child) { margin-top: var(--space-3) }
+    margin-top: -var(--space-3);
+    > * { margin-top: var(--space-3) }
   }
 
   .md-mcx4 { 
-    > *:not(:first-child) { margin-left: var(--space-4) } 
+    margin-left: -var(--space-4);
+    > * { margin-left: var(--space-4) }
   }
 
   .md-mcy4 { 
-    > *:not(:first-child) { margin-top: var(--space-4) }
+    margin-top: -var(--space-4);
+    > * { margin-top: var(--space-4) }
   }
 
   .md-ml-auto { margin-left:  auto }

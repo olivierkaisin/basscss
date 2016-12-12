@@ -7,6 +7,7 @@
 @import '../modules/margin';
 @import '../modules/padding';
 @import '../modules/grid';
+@import '../modules/hide';
 @import '../modules/flexbox';
 @import '../modules/position';
 @import '../modules/border';

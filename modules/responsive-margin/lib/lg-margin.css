@@ -48,35 +48,43 @@
 
   /* Control over children margins */
   .lg-mcx1 { 
-    > *:not(:first-child) { margin-left: var(--space-1) }
+    margin-left: -var(--space-1);
+    > * { margin-left: var(--space-1) }
   }
 
   .lg-mcy1 { 
-    > *:not(:first-child) { margin-top: var(--space-1) }
+    margin-top: -var(--space-1);
+    > * { margin-top: var(--space-1) }
   }
 
   .lg-mcx2 { 
-    > *:not(:first-child) { margin-left: var(--space-2) }
+    margin-left: -var(--space-2);
+    > * { margin-left: var(--space-2) }
   }
 
   .lg-mcy2 { 
-    > *:not(:first-child) { margin-top: var(--space-2) }
+    margin-top: -var(--space-2);
+    > * { margin-top: var(--space-2) }
   }
 
   .lg-mcx3 { 
-    > *:not(:first-child) { margin-left: var(--space-3) }
+    margin-left: -var(--space-3);
+    > * { margin-left: var(--space-3) }
   }
 
   .lg-mcy3 { 
-    > *:not(:first-child) { margin-top: var(--space-3) }
+    margin-top: -var(--space-3);
+    > * { margin-top: var(--space-3) }
   }
 
   .lg-mcx4 { 
-    > *:not(:first-child) { margin-left: var(--space-4) } 
+    margin-left: -var(--space-4);
+    > * { margin-left: var(--space-4) }
   }
 
   .lg-mcy4 { 
-    > *:not(:first-child) { margin-top: var(--space-4) }
+    margin-top: -var(--space-4);
+    > * { margin-top: var(--space-4) }
   }
 
   .lg-ml-auto { margin-left:  auto }
