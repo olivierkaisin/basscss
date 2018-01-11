@@ -41,5 +41,21 @@
   .lg-px4 { padding-left:   var(--space-4); padding-right:  var(--space-4) }
   .lg-py4 { padding-top:    var(--space-4); padding-bottom: var(--space-4) }
 
+  .lg-p5  { padding:        var(--space-5) }
+  .lg-pt5 { padding-top:    var(--space-5) }
+  .lg-pr5 { padding-right:  var(--space-5) }
+  .lg-pb5 { padding-bottom: var(--space-5) }
+  .lg-pl5 { padding-left:   var(--space-5) }
+  .lg-px5 { padding-left:   var(--space-5); padding-right:  var(--space-5) }
+  .lg-py5 { padding-top:    var(--space-5); padding-bottom: var(--space-5) }
+
+  .lg-p6  { padding:        var(--space-6) }
+  .lg-pt6 { padding-top:    var(--space-6) }
+  .lg-pr6 { padding-right:  var(--space-6) }
+  .lg-pb6 { padding-bottom: var(--space-6) }
+  .lg-pl6 { padding-left:   var(--space-6) }
+  .lg-px6 { padding-left:   var(--space-6); padding-right:  var(--space-6) }
+  .lg-py6 { padding-top:    var(--space-6); padding-bottom: var(--space-6) }
+
 }
 

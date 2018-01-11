@@ -41,10 +41,28 @@
   .lg-mx4 { margin-left:   var(--space-4); margin-right:  var(--space-4) }
   .lg-my4 { margin-top:    var(--space-4); margin-bottom: var(--space-4) }
 
+  .lg-m5  { margin:        var(--space-5) }
+  .lg-mt5 { margin-top:    var(--space-5) }
+  .lg-mr5 { margin-right:  var(--space-5) }
+  .lg-mb5 { margin-bottom: var(--space-5) }
+  .lg-ml5 { margin-left:   var(--space-5) }
+  .lg-mx5 { margin-left:   var(--space-5); margin-right:  var(--space-5) }
+  .lg-my5 { margin-top:    var(--space-5); margin-bottom: var(--space-5) }
+
+  .lg-m46 { margin:        var(--space-6) }
+  .lg-mt6 { margin-top:    var(--space-6) }
+  .lg-mr6 { margin-right:  var(--space-6) }
+  .lg-mb6 { margin-bottom: var(--space-6) }
+  .lg-ml6 { margin-left:   var(--space-6) }
+  .lg-mx6 { margin-left:   var(--space-6); margin-right:  var(--space-6) }
+  .lg-my6 { margin-top:    var(--space-6); margin-bottom: var(--space-6) }
+
   .lg-mxn1 { margin-left: -var(--space-1); margin-right: -var(--space-1); }
   .lg-mxn2 { margin-left: -var(--space-2); margin-right: -var(--space-2); }
   .lg-mxn3 { margin-left: -var(--space-3); margin-right: -var(--space-3); }
   .lg-mxn4 { margin-left: -var(--space-4); margin-right: -var(--space-4); }
+  .lg-mxn5 { margin-left: -var(--space-5); margin-right: -var(--space-5) }
+  .lg-mxn6 { margin-left: -var(--space-6); margin-right: -var(--space-6) }
 
   /* Control over children margins */
   .lg-mcx1 { 
@@ -85,6 +103,26 @@
   .lg-mcy4 { 
     margin-top: -var(--space-4);
     > * { margin-top: var(--space-4) }
+  }
+
+  .lg-mcx5 { 
+    margin-left: -var(--space-4);
+    > * { margin-left: var(--space-5) }
+  }
+
+  .lg-mcy5 { 
+    margin-top: -var(--space-4);
+    > * { margin-top: var(--space-5) }
+  }
+
+  .lg-mcx6 { 
+    margin-left: -var(--space-4);
+    > * { margin-left: var(--space-6) }
+  }
+
+  .lg-mcy6 { 
+    margin-top: -var(--space-4);
+    > * { margin-top: var(--space-6) }
   }
 
   .lg-ml-auto { margin-left:  auto }
